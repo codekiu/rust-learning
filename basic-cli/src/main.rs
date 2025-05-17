@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    let mut dict = Vec::new();
+    let mut dict: Vec<String>= Vec::new();
 
     loop {
         let mut user_input = String::new();
